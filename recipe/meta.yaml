@@ -20,6 +20,7 @@ requirements:
     - git
     - swig
     - cmake
+    - make
   host:
     - python  
     - pip
