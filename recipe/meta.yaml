@@ -10,8 +10,7 @@ source:
   sha256: 1641732b7cabecaf4480635749bfa008e21d832186ae7d8a03cc7add23426850
 
 build:
-  number: 0
-#  skip: True  # [win]
+  number: 1
   
 requirements:
   build:
@@ -20,6 +19,7 @@ requirements:
     - git
     - swig
     - cmake
+    - make
   host:
     - python  
     - pip
