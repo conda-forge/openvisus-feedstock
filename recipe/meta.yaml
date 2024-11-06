@@ -10,12 +10,13 @@ source:
   sha256: 1641732b7cabecaf4480635749bfa008e21d832186ae7d8a03cc7add23426850
 
 build:
-  number: 0
+  number: 1
 #  skip: True  # [win]
   
 requirements:
   build:
     - {{ compiler('c') }}
+    - {{ stdlib("c") }}
     - {{ compiler('cxx') }}
     - git
     - swig
